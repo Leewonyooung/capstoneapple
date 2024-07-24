@@ -1,10 +1,33 @@
-# Created by https://www.toptal.com/developers/gitignore/api/python,macos,dart,flutter
-# Edit at https://www.toptal.com/developers/gitignore?templates=python,macos,dart,flutter
+# Created by https://www.toptal.com/developers/gitignore/api/windows
+# Edit at https://www.toptal.com/developers/gitignore?templates=windows
 
-### Dart ###
-# See https://www.dartlang.org/guides/libraries/private-files
+### Windows ###
+# Windows thumbnail cache files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
 
-# Files and directories created by pub
+# Dump file
+*.stackdump
+
+# Folder config file
+[Dd]esktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# End of https://www.toptal.com/developers/gitignore/api/windows
 .dart_tool/
 .packages
 build/
